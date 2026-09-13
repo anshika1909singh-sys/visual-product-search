@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/
+
+# Generated model files
+models/*.pth
+models/*.pt
+models/*.pth.tar
+
+# Generated embeddings
+embeddings/
+
+# Environment variables
+.env
+
+# VS Code
+.vscode/
