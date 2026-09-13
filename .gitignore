@@ -24,3 +24,6 @@ embeddings/
 
 # VS Code
 .vscode/
+
+#Configuration path
+models/*.pth
