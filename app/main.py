@@ -1,14 +1,23 @@
 from pathlib import Path
+import io
 
 from fastapi import FastAPI, File, UploadFile, HTTPException
+from fastapi.staticfiles import StaticFiles
+from fastapi.middleware.cors import CORSMiddleware
 from PIL import Image
-import io
 
 from app.model import FeatureExtractor
 from app.search import ProductSearch
 
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
+
+IMAGE_DIR = (
+    PROJECT_ROOT
+    / "data"
+    / "fashion-product-images-small"
+    / "images"
+)
 
 
 app = FastAPI(
@@ -17,8 +26,24 @@ app = FastAPI(
     version="1.0.0",
 )
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
-# Load ML components once when the API starts
+app.mount(
+    "/images",
+    StaticFiles(directory=IMAGE_DIR),
+    name="images"
+)
+
+
 feature_extractor = FeatureExtractor()
 search_engine = ProductSearch(PROJECT_ROOT)
 

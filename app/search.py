@@ -46,39 +46,49 @@ class ProductSearch:
         print(f"Product metadata loaded: {len(self.metadata)} products")
 
     def search(self, query_embedding, k=10):
-
         # Make a copy so we don't modify the original embedding
         query_vector = query_embedding.copy().astype(np.float32)
 
-        # Normalize for cosine similarity
         faiss.normalize_L2(query_vector)
 
-        # Search one extra result because the query image
-        # could itself be present in the catalog
         scores, indices = self.index.search(
-            query_vector,
+           query_vector,
             k + 1
         )
 
         scores = scores[0]
         indices = indices[0]
 
-        # Convert FAISS row indices → product IDs
         results = []
 
         for score, index in zip(scores, indices):
 
             if index == -1:
-                continue
-
+              continue
+ 
             product_id = int(self.product_ids[index])
 
+           # Find metadata for this product
+            product_row = self.metadata[
+              self.metadata["id"] == product_id
+            ].iloc[0]
+
             results.append({
-                "product_id": product_id,
-                "similarity": float(score)
+            "product_id": product_id,
+            "similarity": float(score),
+            "gender": product_row["gender"],
+            "masterCategory": product_row["masterCategory"],
+            "subCategory": product_row["subCategory"],
+            "articleType": product_row["articleType"],
+            "baseColour": product_row["baseColour"],
+            "season": product_row["season"],
+            "year": int(product_row["year"]),
+            "usage": product_row["usage"],
+            "productDisplayName": product_row["productDisplayName"],
+            "image_url": f"/images/{product_id}.jpg"
             })
 
             if len(results) == k:
-                break
-
+              break
+    
         return results
