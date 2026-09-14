@@ -1,0 +1,4 @@
+model,embedding_dimension,estimated_float32_storage_mb
+ResNet-18,512,86.798828125
+ResNet-50,2048,347.1953125
+EfficientNet-B0,1280,216.9970703125
