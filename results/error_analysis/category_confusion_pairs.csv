@@ -1,0 +1,382 @@
+query_article_type,retrieved_article_type,count
+Casual Shoes,Sports Shoes,153
+Sports Shoes,Casual Shoes,123
+Tops,Tshirts,88
+Tshirts,Tops,61
+Heels,Flats,56
+Casual Shoes,Formal Shoes,49
+Flats,Heels,43
+Tops,Kurtas,41
+Tshirts,Shirts,32
+Track Pants,Trousers,32
+Dresses,Kurtas,30
+Dresses,Tops,30
+Kurtas,Shirts,29
+Heels,Sandals,28
+Formal Shoes,Casual Shoes,27
+Perfume and Body Mist,Deodorant,27
+Heels,Flip Flops,26
+Tops,Shirts,24
+Kurtas,Tops,24
+Sports Sandals,Sandals,23
+Shirts,Tshirts,22
+Sandals,Flip Flops,22
+Flip Flops,Sandals,22
+Tshirts,Innerwear Vests,22
+Kurtis,Kurtas,22
+Kurtas,Dresses,21
+Jeggings,Jeans,20
+Tshirts,Sweaters,20
+Tunics,Shirts,19
+Kurtas,Tunics,18
+Tunics,Kurtas,18
+Tshirts,Sweatshirts,17
+Trousers,Jeans,17
+Kurtas,Kurtis,17
+Sweaters,Tshirts,17
+Flip Flops,Heels,16
+Tunics,Tops,16
+Clutches,Wallets,15
+Jeans,Trousers,15
+Sandals,Flats,14
+Tops,Dresses,14
+Flats,Casual Shoes,14
+Flats,Sandals,13
+Jackets,Sweatshirts,13
+Shirts,Tops,12
+Handbags,Backpacks,12
+Capris,Shorts,12
+Sarees,Kurtas,11
+Sandals,Heels,11
+Jackets,Shirts,11
+Sweatshirts,Tshirts,11
+Mobile Pouch,Handbags,11
+Shorts,Capris,11
+Sandals,Casual Shoes,11
+Flip Flops,Flats,10
+Boxers,Shorts,10
+Sports Shoes,Formal Shoes,10
+Trousers,Track Pants,9
+Wallets,Clutches,9
+Kurtis,Tops,8
+Sweatshirts,Jackets,8
+Casual Shoes,Heels,8
+Tunics,Tshirts,8
+Sweaters,Tops,8
+Tshirts,Briefs,8
+Watches,Free Gifts,8
+Flats,Flip Flops,8
+Casual Shoes,Flip Flops,7
+Deodorant,Perfume and Body Mist,7
+Kurta Sets,Kurtas,7
+Sandals,Sports Sandals,7
+Track Pants,Jeans,7
+Dresses,Tunics,7
+Tops,Tunics,7
+Handbags,Wallets,7
+Wallets,Perfume and Body Mist,7
+Sweatshirts,Shirts,7
+Camisoles,Bra,7
+Handbags,Laptop Bag,6
+Nightdress,Tshirts,6
+Handbags,Messenger Bag,6
+Tops,Kurtis,6
+Skirts,Shorts,6
+Dresses,Tshirts,6
+Heels,Casual Shoes,6
+Trunk,Briefs,6
+Casual Shoes,Sandals,6
+Casual Shoes,Flats,6
+Dresses,Kurtis,5
+Clutches,Handbags,5
+Bath Robe,Kurta Sets,5
+Fragrance Gift Set,Deodorant,5
+Earrings,Pendant,5
+Kurtas,Tshirts,5
+Night suits,Nightdress,5
+Perfume and Body Mist,Fragrance Gift Set,5
+Mufflers,Scarves,5
+Nightdress,Kurtas,5
+Scarves,Tops,5
+Lounge Pants,Capris,5
+Leggings,Trousers,5
+Waistcoat,Shorts,5
+Shorts,Lounge Shorts,5
+Jackets,Sweaters,5
+Handbags,Duffel Bag,5
+Tshirts,Kurtas,4
+Wallets,Trunk,4
+Tops,Sweaters,4
+Handbags,Mobile Pouch,4
+Briefs,Tshirts,4
+Heels,Sports Shoes,4
+Kurta Sets,Dupatta,4
+Laptop Bag,Handbags,4
+Salwar,Patiala,4
+Leggings,Jeans,4
+Briefs,Tops,4
+Sweatshirts,Sweaters,4
+Jeans,Jeggings,4
+Rucksacks,Backpacks,4
+Track Pants,Capris,4
+Track Pants,Lounge Pants,4
+Innerwear Vests,Tshirts,4
+Jeggings,Leggings,4
+Kurtas,Nightdress,4
+Sports Shoes,Sandals,4
+Compact,Face Moisturisers,4
+Track Pants,Shorts,4
+Eyeshadow,Highlighter and Blush,3
+Foundation and Primer,Face Wash and Cleanser,3
+Foundation and Primer,Face Moisturisers,3
+Handbags,Tshirts,3
+Compact,Highlighter and Blush,3
+Compact,Foundation and Primer,3
+Face Wash and Cleanser,Lip Care,3
+Foundation and Primer,Perfume and Body Mist,3
+Nightdress,Camisoles,3
+Night suits,Track Pants,3
+Nail Polish,Watches,3
+Lounge Pants,Shorts,3
+Perfume and Body Mist,Face Moisturisers,3
+Capris,Lounge Shorts,3
+Kurtis,Shirts,3
+Sports Shoes,Laptop Bag,3
+Sports Shoes,Messenger Bag,3
+Jeans,Night suits,3
+Kurtas,Sweatshirts,3
+Kurtas,Kurta Sets,3
+Tops,Innerwear Vests,3
+Sandals,Sports Shoes,3
+Dupatta,Dresses,3
+Tracksuits,Trousers,3
+Track Pants,Lounge Shorts,3
+Earrings,Ring,3
+Deodorant,Fragrance Gift Set,3
+Dresses,Skirts,3
+Hair Colour,Foundation and Primer,3
+Foundation and Primer,Lipstick,3
+Scarves,Shirts,3
+Shorts,Boxers,3
+Lip Liner,Lip Gloss,3
+Kurtis,Tshirts,3
+Night suits,Tshirts,3
+Track Pants,Leggings,2
+Face Wash and Cleanser,Eye Cream,2
+Tracksuits,Track Pants,2
+Handbags,Shorts,2
+Hair Colour,Perfume and Body Mist,2
+Hair Colour,Fragrance Gift Set,2
+Fragrance Gift Set,Perfume and Body Mist,2
+Face Wash and Cleanser,Tshirts,2
+Earrings,Perfume and Body Mist,2
+Tshirts,Tunics,2
+Tshirts,Shorts,2
+Tunics,Nightdress,2
+Bath Robe,Nightdress,2
+Waist Pouch,Laptop Bag,2
+Waist Pouch,Handbags,2
+Backpacks,Handbags,2
+Churidar,Leggings,2
+Watches,Earrings,2
+Watches,Pendant,2
+Dupatta,Tops,2
+Clutches,Mobile Pouch,2
+Tshirts,Jackets,2
+Dresses,Nightdress,2
+Dupatta,Nightdress,2
+Handbags,Belts,2
+Kajal and Eyeliner,Lip Liner,2
+Jeggings,Trousers,2
+Skirts,Boxers,2
+Sports Sandals,Sports Shoes,2
+Kurtas,Jackets,2
+Sweaters,Sweatshirts,2
+Sports Shoes,Wallets,2
+Stoles,Dupatta,2
+Sunscreen,Face Wash and Cleanser,2
+Sweaters,Kurtas,2
+Tops,Jackets,2
+Tops,Nightdress,2
+Jackets,Tracksuits,2
+Jackets,Tshirts,2
+Innerwear Vests,Socks,2
+Kurta Sets,Dresses,2
+Shirts,Sweatshirts,2
+Scarves,Mufflers,2
+Sarees,Dresses,2
+Sarees,Free Gifts,2
+Mask and Peel,Eye Cream,2
+Sarees,Tops,2
+Mask and Peel,Sunscreen,2
+Night suits,Leggings,2
+Nightdress,Dupatta,2
+Night suits,Trousers,2
+Perfume and Body Mist,Face Wash and Cleanser,2
+Perfume and Body Mist,Watches,2
+Necklace and Chains,Jewellery Set,2
+Necklace and Chains,Earrings,2
+Wallets,Skirts,2
+Nightdress,Tops,2
+Camisoles,Tops,2
+Capris,Jeans,2
+Belts,Free Gifts,1
+Boxers,Briefs,1
+Briefs,Clutches,1
+Briefs,Night suits,1
+Briefs,Trunk,1
+Capris,Jeggings,1
+Capris,Leggings,1
+Capris,Shirts,1
+Waistcoat,Lounge Shorts,1
+Waistcoat,Socks,1
+Waistcoat,Trousers,1
+Wallets,Belts,1
+Wallets,Briefs,1
+Wallets,Deodorant,1
+Wallets,Eye Cream,1
+Wallets,Hair Colour,1
+Wallets,Key chain,1
+Wallets,Mask and Peel,1
+Wallets,Mens Grooming Kit,1
+Wallets,Nail Polish,1
+Nightdress,Skirts,1
+Nightdress,Tunics,1
+Pendant,Ring,1
+Pendant,Scarves,1
+Perfume and Body Mist,Foundation and Primer,1
+Perfume and Body Mist,Nail Polish,1
+Perfume and Body Mist,Wallets,1
+Ring,Cufflinks,1
+Ring,Flats,1
+Nail Polish,Perfume and Body Mist,1
+Night suits,Capris,1
+Night suits,Dresses,1
+Night suits,Jumpsuit,1
+Night suits,Salwar,1
+Ring,Heels,1
+Sarees,Kurtis,1
+Sarees,Lehenga Choli,1
+Sarees,Nightdress,1
+Lounge Pants,Lounge Shorts,1
+Lounge Pants,Trousers,1
+Mask and Peel,Face Moisturisers,1
+Mask and Peel,Face Scrub and Exfoliator,1
+Mask and Peel,Face Serum and Gel,1
+Mobile Pouch,Belts,1
+Mobile Pouch,Clutches,1
+Mobile Pouch,Free Gifts,1
+Mobile Pouch,Skirts,1
+Mobile Pouch,Wallets,1
+Mufflers,Stoles,1
+Scarves,Stoles,1
+Scarves,Tshirts,1
+Shirts,Dresses,1
+Shirts,Jackets,1
+Shirts,Kurta Sets,1
+Shirts,Kurtas,1
+Shirts,Sweaters,1
+Shorts,Jeans,1
+Laptop Bag,Duffel Bag,1
+Leggings,Capris,1
+Leggings,Churidar,1
+Lip Care,Face Wash and Cleanser,1
+Lip Gloss,Lip Plumper,1
+Lip Gloss,Mascara,1
+Lip Liner,Kajal and Eyeliner,1
+Shorts,Leggings,1
+Shorts,Track Pants,1
+Skirts,Capris,1
+Skirts,Churidar,1
+Skirts,Lounge Shorts,1
+Socks,Shorts,1
+Sports Sandals,Casual Shoes,1
+Sports Shoes,Clutches,1
+Sports Shoes,Handbags,1
+Kurtas,Bath Robe,1
+Kurtas,Camisoles,1
+Kurtas,Night suits,1
+Kurtas,Skirts,1
+Kurtas,Sweaters,1
+Kurtis,Dresses,1
+Sunglasses,Free Gifts,1
+Sweaters,Kurtis,1
+Sweaters,Scarves,1
+Sweaters,Shirts,1
+Sweaters,Tunics,1
+Jeans,Track Pants,1
+Kajal and Eyeliner,Highlighter and Blush,1
+Kurta Sets,Kurtis,1
+Kurta Sets,Night suits,1
+Kurta Sets,Stoles,1
+Kurta Sets,Tops,1
+Kurtas,Baby Dolls,1
+Heels,Messenger Bag,1
+Heels,Sports Sandals,1
+Innerwear Vests,Tops,1
+Jeans,Leggings,1
+Sweatshirts,Kurtas,1
+Tops,Briefs,1
+Tops,Camisoles,1
+Tops,Clothing Set,1
+Tops,Rain Jacket,1
+Tops,Rompers,1
+Handbags,Clutches,1
+Handbags,Jeans,1
+Handbags,Kajal and Eyeliner,1
+Handbags,Shirts,1
+Handbags,Tops,1
+Handbags,Trunk,1
+Formal Shoes,Wallets,1
+Foundation and Primer,Deodorant,1
+Foundation and Primer,Eye Cream,1
+Foundation and Primer,Makeup Remover,1
+Hair Colour,Deodorant,1
+Hair Colour,Face Moisturisers,1
+Earrings,Tshirts,1
+Face Wash and Cleanser,Face Moisturisers,1
+Face Wash and Cleanser,Face Scrub and Exfoliator,1
+Face Wash and Cleanser,Handbags,1
+Flats,Formal Shoes,1
+Track Pants,Rain Trousers,1
+Trunk,Boxers,1
+Dresses,Sweaters,1
+Duffel Bag,Heels,1
+Dupatta,Kurtas,1
+Dupatta,Kurtis,1
+Dupatta,Shirts,1
+Dupatta,Tshirts,1
+Earrings,Cufflinks,1
+Clutches,Messenger Bag,1
+Clutches,Skirts,1
+Deodorant,Free Gifts,1
+Dresses,Handbags,1
+Dresses,Jumpsuit,1
+Tshirts,Camisoles,1
+Tshirts,Jumpsuit,1
+Tshirts,Kurtis,1
+Tshirts,Lounge Pants,1
+Tunics,Camisoles,1
+Capris,Skirts,1
+Casual Shoes,Sports Sandals,1
+Churidar,Bath Robe,1
+Churidar,Kurta Sets,1
+Churidar,Kurtas,1
+Churidar,Lounge Pants,1
+Churidar,Skirts,1
+Clutches,Laptop Bag,1
+Tunics,Dresses,1
+Tunics,Kurtis,1
+Tunics,Sweatshirts,1
+Waist Pouch,Belts,1
+Waist Pouch,Messenger Bag,1
+Waist Pouch,Mobile Pouch,1
+Waist Pouch,Wallets,1
+Waistcoat,Capris,1
+Waistcoat,Jeans,1
+Belts,Bracelet,1
+Wallets,Watches,1
+Belts,Bangle,1
+Backpacks,Rucksacks,1
+Backpacks,Free Gifts,1
+Watches,Perfume and Body Mist,1
