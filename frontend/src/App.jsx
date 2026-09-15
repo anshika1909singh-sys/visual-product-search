@@ -446,11 +446,9 @@ function App() {
           </div>
 
           <nav className="desktop-nav">
-            <a href="#workspace">Search</a>
-            <a href="#results">Results</a>
-            <a href="#how-it-works">
-              How it works
-            </a>
+            <a href="#workspace" className="nav-link">Search</a>
+            <a href="#results" className="nav-link">Results</a>
+            <a href="#how-it-works" className="nav-link">How It Works</a>
           </nav>
 
           <div className="api-status">
@@ -556,13 +554,6 @@ function App() {
                   </h2>
                 </div>
 
-                <button
-                  className="secondary-button"
-                  onClick={handleReset}
-                >
-                  New Image
-                </button>
-
               </div>
 
               <div className="workspace-grid">
@@ -571,7 +562,14 @@ function App() {
                 <div className="image-panel">
 
                   <div className="panel-label">
-                    UPLOADED IMAGE
+                    <span>UPLOADED IMAGE</span>
+                    <button
+                      type="button"
+                      className="primary-button new-image-btn"
+                      onClick={handleReset}
+                    >
+                      New Image
+                    </button>
                   </div>
 
                   <div className="image-stage">
