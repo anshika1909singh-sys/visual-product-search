@@ -9,6 +9,7 @@ from PIL import Image
 from app.model import FeatureExtractor
 from app.search import ProductSearch
 
+from app.detector import ObjectDetector
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
@@ -46,7 +47,7 @@ app.mount(
 
 feature_extractor = FeatureExtractor()
 search_engine = ProductSearch(PROJECT_ROOT)
-
+detector = ObjectDetector(PROJECT_ROOT)
 
 @app.get("/health")
 def health_check():
@@ -59,7 +60,7 @@ def health_check():
 @app.post("/search")
 async def search_products(
     file: UploadFile = File(...),
-    k: int = 5
+    k: int = 10
 ):
     # Validate file type
     if file.content_type not in ["image/jpeg", "image/png", "image/webp"]:
@@ -91,7 +92,8 @@ async def search_products(
             embedding,
             k=k
         )
-
+        print(f"Requested k: {k}")
+        print(f"Backend results returned: {len(results)}")
         return {
             "query": {
                 "filename": file.filename
@@ -104,3 +106,49 @@ async def search_products(
             status_code=500,
             detail=f"Search failed: {str(e)}"
         )
+
+@app.post("/detect")
+async def detect_objects(
+    file: UploadFile = File(...)
+):
+    """
+    Detect objects in an uploaded image.
+
+    Returns detected object labels, confidence scores,
+    and bounding-box coordinates.
+    """
+
+    allowed_types = {
+        "image/jpeg",
+        "image/png",
+        "image/webp",
+    }
+
+    if file.content_type not in allowed_types:
+        raise HTTPException(
+            status_code=400,
+            detail="Only JPEG, PNG, and WebP images are supported."
+        )
+
+    try:
+        contents = await file.read()
+
+        image = Image.open(
+            io.BytesIO(contents)
+        ).convert("RGB")
+
+    except Exception:
+        raise HTTPException(
+            status_code=400,
+            detail="Invalid image file."
+        )
+
+    detections = detector.detect(image)
+
+    return {
+        "query": {
+            "filename": file.filename
+        },
+        "detections": detections,
+        "count": len(detections)
+    }    
