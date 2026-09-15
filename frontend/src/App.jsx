@@ -501,10 +501,6 @@ function App() {
               style={{ cursor: "pointer" }}
             >
 
-              <div className="upload-icon">
-                ↑
-              </div>
-
               <h2>
                 Drop an image here
               </h2>
@@ -531,6 +527,8 @@ function App() {
                 onChange={handleFileInput}
                 hidden
               />
+
+
 
               <div className="upload-note">
                 JPEG, PNG or WebP
