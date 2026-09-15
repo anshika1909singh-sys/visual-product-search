@@ -445,6 +445,7 @@ a {
 }
 
 .upload-icon {
+  flex: 0;
   width: 68px;
   height: 68px;
   margin-bottom: 22px;
