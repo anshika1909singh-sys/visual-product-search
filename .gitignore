@@ -25,3 +25,5 @@ embeddings/
 
 #Configuration path
 models/*.pth
+
+railway_deploy/
